@@ -73,7 +73,7 @@ export default function Services() {
             <motion.div
               key={index}
               variants={item}
-              whileHover={{ y: -5 }} // Aangat pag hinover
+              whileHover={{ y: -5 }}
               className="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 hover:shadow-xl hover:border-blue-100 transition-all duration-300 group"
             >
               {/* Icon */}
@@ -92,7 +92,6 @@ export default function Services() {
           ))}
         </motion.div>
 
-        {/* EXTRA FEATURES (Optional Mini-Grid) */}
         <div className="mt-20 pt-10 border-t border-slate-200 grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
             {[
                 { label: "Premium Detergents", icon: Sparkles },
