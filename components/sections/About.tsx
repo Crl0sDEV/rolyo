@@ -29,7 +29,6 @@ export default function About() {
               />
             </div>
             
-            {/* Secondary Image (Floating) */}
             <div className="absolute -bottom-10 -right-10 w-2/3 aspect-square rounded-2xl overflow-hidden shadow-xl border-4 border-white z-20 hidden md:block">
                
                <Image 
