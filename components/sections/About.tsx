@@ -18,7 +18,7 @@ export default function About() {
             transition={{ duration: 0.6 }}
             className="relative"
           >
-            {/* Main Image (Big) */}
+
             <div className="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-slate-100 aspect-4/5 z-10">
               {/* 👇 Updated Source: Main Image */}
               <Image 
