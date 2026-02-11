@@ -20,7 +20,6 @@ export default function About() {
           >
 
             <div className="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-slate-100 aspect-4/5 z-10">
-              {/* 👇 Updated Source: Main Image */}
               <Image 
                 src="/rolyo-about-2.webp" 
                 alt="Clean Laundry Stack"
