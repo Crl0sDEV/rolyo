@@ -37,11 +37,9 @@ export default function About() {
               />
             </div>
 
-            {/* Decor Blob */}
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] bg-blue-50/50 rounded-full blur-3xl -z-10" />
           </motion.div>
 
-          {/* RIGHT: Content */}
           <motion.div 
             initial={{ opacity: 0, x: 50 }}
             whileInView={{ opacity: 1, x: 0 }}
