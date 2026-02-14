@@ -63,7 +63,6 @@ export default function About() {
               Gamit ang aming modernong equipment at premium detergents, sinisigurado namin na bawat damit na dumadaan sa amin ay inaalagaan nang husto. From casual wear to heavy comforters, sagot namin &apos;yan.
             </p>
 
-            {/* Checklist */}
             <div className="space-y-4 mb-10">
               {[
                 "Experienced & Trustworthy Staff",
