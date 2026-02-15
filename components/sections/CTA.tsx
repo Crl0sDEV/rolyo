@@ -7,7 +7,6 @@ export default function CTA() {
   return (
     <section className="py-20 bg-blue-600 relative overflow-hidden">
       
-      {/* Background Decors (Para hindi flat tignan) */}
       <div className="absolute top-0 left-0 w-64 h-64 bg-white opacity-10 rounded-full -translate-x-1/2 -translate-y-1/2 blur-3xl" />
       <div className="absolute bottom-0 right-0 w-80 h-80 bg-cyan-400 opacity-20 rounded-full translate-x-1/3 translate-y-1/3 blur-3xl" />
 
