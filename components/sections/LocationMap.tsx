@@ -25,7 +25,6 @@ export default function LocationMap() {
             </p>
 
             <div className="space-y-8">
-              {/* Address */}
               <div className="flex items-start gap-4">
                 <div className="w-12 h-12 bg-blue-50 rounded-full flex items-center justify-center text-primary shrink-0">
                   <MapPin size={24} />
