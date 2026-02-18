@@ -8,7 +8,6 @@ export default function Hero() {
   return (
     <section id="hero" className="relative pt-25 pb-20 lg:pt-35 lg:pb-32 overflow-hidden bg-background">
       
-      {/* Background Decor */}
       <div className="absolute top-0 right-0 -z-10 w-[50%] h-[50%] bg-blue-100/50 blur-3xl rounded-full translate-x-1/2 -translate-y-1/2" />
       
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
