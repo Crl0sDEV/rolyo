@@ -12,8 +12,7 @@ export default function Hero() {
       
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
-          
-          {/* LEFT SIDE: Text Content */}
+
           <motion.div 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
