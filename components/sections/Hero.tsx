@@ -36,7 +36,6 @@ export default function Hero() {
               Experience premium laundry care with Rolyo. Mabilis, mabango, at siguradong malinis. We treat your clothes like our own.
             </p>
 
-            {/* Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 mb-10">
               <button className="inline-flex items-center justify-center gap-2 bg-primary hover:bg-blue-700 text-white px-8 py-3.5 rounded-xl font-semibold transition-all shadow-lg hover:shadow-blue-500/25 cursor-pointer">
                 <MapPin className="w-5 h-5" />
@@ -48,7 +47,6 @@ export default function Hero() {
               </button>
             </div>
 
-            {/* Social Proof */}
             <div className="flex items-center gap-4 text-sm text-slate-500">
               <div className="flex -space-x-3">
                 {[1,2,3,4].map((i) => (
