@@ -39,7 +39,6 @@ export default function LocationMap() {
                 </div>
               </div>
 
-              {/* Hours */}
               <div className="flex items-start gap-4">
                 <div className="w-12 h-12 bg-blue-50 rounded-full flex items-center justify-center text-primary shrink-0">
                   <Clock size={24} />
