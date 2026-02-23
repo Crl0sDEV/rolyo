@@ -50,7 +50,6 @@ export default function LocationMap() {
                 </div>
               </div>
 
-              {/* Phone */}
               <div className="flex items-start gap-4">
                 <div className="w-12 h-12 bg-blue-50 rounded-full flex items-center justify-center text-primary shrink-0">
                   <Phone size={24} />
@@ -65,7 +64,6 @@ export default function LocationMap() {
               </div>
             </div>
 
-            {/* Social Buttons */}
             <div className="flex gap-4 mt-12">
                <button className="flex items-center gap-2 bg-[#1877F2] text-white px-6 py-3 rounded-xl font-semibold hover:bg-blue-700 transition shadow-lg hover:shadow-blue-500/25">
                  <Facebook size={20} />
