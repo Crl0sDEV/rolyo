@@ -76,7 +76,6 @@ export default function LocationMap() {
             </div>
           </motion.div>
 
-          {/* RIGHT SIDE: Google Map Embed */}
           <motion.div 
             initial={{ opacity: 0, x: 20 }}
             whileInView={{ opacity: 1, x: 0 }}
