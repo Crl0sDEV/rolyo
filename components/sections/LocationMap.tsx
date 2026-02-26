@@ -91,7 +91,7 @@ export default function LocationMap() {
                allowFullScreen 
                loading="lazy" 
                referrerPolicy="no-referrer-when-downgrade"
-               className="grayscale hover:grayscale-0 transition-all duration-500" // Black & white muna, tapos magkukulay pag hinover
+               className="grayscale hover:grayscale-0 transition-all duration-500"
              ></iframe>
              
              {/* Overlay Badge */}
