@@ -94,7 +94,6 @@ export default function LocationMap() {
                className="grayscale hover:grayscale-0 transition-all duration-500"
              ></iframe>
              
-             {/* Overlay Badge */}
              <div className="absolute bottom-6 right-6 bg-white px-4 py-2 rounded-lg shadow-lg text-xs font-bold text-slate-600">
                 📍 Avida Town Center
              </div>
