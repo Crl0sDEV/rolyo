@@ -59,8 +59,7 @@ export default function Services() {
             Hindi lang basta laba. We give your clothes the professional care they deserve using modern equipment and premium detergents.
           </p>
         </div>
-
-        {/* SERVICES GRID */}
+        
         <motion.div 
           variants={container}
           initial="hidden"
