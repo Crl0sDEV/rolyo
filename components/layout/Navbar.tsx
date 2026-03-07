@@ -63,7 +63,6 @@ export default function Navbar() {
             </button>
           </div>
 
-          {/* MOBILE TOGGLE */}
           <button
             onClick={() => setIsOpen(!isOpen)}
             className="md:hidden p-2 text-slate-600 hover:text-blue-600 transition-colors"
