@@ -8,7 +8,6 @@ export default function Footer() {
         {/* Top Section: Grid */}
         <div className="grid md:grid-cols-4 gap-8 mb-12">
           
-          {/* Column 1: Brand */}
           <div className="col-span-1 md:col-span-2">
             <a href="#" className="text-2xl font-bold text-white mb-4 block">
               ROLYO<span className="text-cyan-500">.</span>
