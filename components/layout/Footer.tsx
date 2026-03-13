@@ -5,7 +5,6 @@ export default function Footer() {
     <footer className="bg-slate-900 text-slate-300 py-12 border-t border-slate-800">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         
-        {/* Top Section: Grid */}
         <div className="grid md:grid-cols-4 gap-8 mb-12">
           
           <div className="col-span-1 md:col-span-2">
