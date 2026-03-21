@@ -13,9 +13,13 @@ export default function Home() {
       <Navbar />
 
       <Hero />
+
       <About />
+
       <Services />
+
       <LocationMap />
+      
       <CTA/>
 
       <Footer />
