@@ -78,7 +78,6 @@ export default function About() {
               ))}
             </div>
 
-            {/* Stats */}
             <div className="grid grid-cols-3 gap-6 border-t border-slate-100 pt-8">
               <div>
                 <p className="text-3xl font-bold text-primary">5k+</p>
