@@ -90,7 +90,7 @@ export default function Hero() {
                  alt="Rolyo Laundry Shop Interior"
                  fill
                  className="object-cover"
-                 priority // 👈 Added priority for faster loading
+                 priority
                />
                
                {/* Floating Card UI */}
