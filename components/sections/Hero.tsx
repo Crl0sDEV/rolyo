@@ -73,7 +73,6 @@ export default function Hero() {
             </div>
           </motion.div>
 
-          {/* RIGHT SIDE: Image Visual */}
           <motion.div
              initial={{ opacity: 0, x: 20 }}
              animate={{ opacity: 1, x: 0 }}
