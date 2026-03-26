@@ -82,7 +82,6 @@ export default function Hero() {
             {/* Note: Gumamit ako ng aspect-[4/3] sa class, make sure supported ito ng tailwind config mo or use aspect-video/square if not */}
             <div className="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white bg-slate-100 aspect-4/3 rotate-1 hover:rotate-0 transition-transform duration-500">
                
-               {/* 👇 DITO YUNG PINALITAN NATIN */}
                <Image 
                  src="/rolyo-interior.webp" 
                  alt="Rolyo Laundry Shop Interior"
