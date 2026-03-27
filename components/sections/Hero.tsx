@@ -89,8 +89,7 @@ export default function Hero() {
                  className="object-cover"
                  priority
                />
-               
-               {/* Floating Card UI */}
+              
                <div className="absolute bottom-6 left-6 bg-white/95 backdrop-blur-md p-4 rounded-2xl shadow-lg border border-white/50 flex items-center gap-4 animate-bounce-slow">
                    <div className="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center text-primary">
                      <Clock size={20} />
