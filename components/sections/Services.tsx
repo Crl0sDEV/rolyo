@@ -79,7 +79,6 @@ export default function Services() {
                 {service.icon}
               </div>
 
-              {/* Text */}
               <h3 className="text-xl font-bold text-slate-900 mb-3 group-hover:text-blue-600 transition-colors">
                 {service.title}
               </h3>
