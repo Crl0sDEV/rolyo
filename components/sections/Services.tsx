@@ -1,25 +1,35 @@
 "use client";
 
 import { motion, Variants } from "framer-motion";
-import { Shirt, Truck, Layers, Sparkles, Clock, ShieldCheck } from "lucide-react";
+import {
+  Shirt,
+  Truck,
+  Layers,
+  Sparkles,
+  Clock,
+  ShieldCheck,
+} from "lucide-react";
 
 const services = [
   {
     icon: <Shirt className="w-6 h-6" />,
     title: "Wash-Dry-Fold",
-    description: "Complete care for your everyday clothes. Hihiwalayin namin ang puti sa de-color, lalabhan, tutupiin, at ready-to-wear na pagbalik sa'yo.",
+    description:
+      "Complete care for your everyday clothes. Hihiwalayin namin ang puti sa de-color, lalabhan, tutupiin, at ready-to-wear na pagbalik sa'yo.",
     color: "bg-blue-100 text-blue-600",
   },
   {
     icon: <Layers className="w-6 h-6" />,
     title: "Comforter & Bulky",
-    description: "May special heavy-duty machines kami para sa comforter, bedsheets, curtains, at seat covers. Siguradong malalim ang linis.",
+    description:
+      "May special heavy-duty machines kami para sa comforter, bedsheets, curtains, at seat covers. Siguradong malalim ang linis.",
     color: "bg-cyan-100 text-cyan-600",
   },
   {
     icon: <Truck className="w-6 h-6" />,
     title: "Pickup & Delivery",
-    description: "Busy sa work o business? Kami na ang kukuha ng labada mo at ihahatid namin pabalik sa doorstep mo. Hassle-free!",
+    description:
+      "Busy sa work o business? Kami na ang kukuha ng labada mo at ihahatid namin pabalik sa doorstep mo. Hassle-free!",
     color: "bg-indigo-100 text-indigo-600",
   },
 ];
@@ -36,13 +46,13 @@ const container: Variants = {
 
 const item: Variants = {
   hidden: { opacity: 0, y: 20 },
-  show: { 
-    opacity: 1, 
-    y: 0, 
-    transition: { 
-      type: "spring", 
-      stiffness: 50 
-    } 
+  show: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      type: "spring",
+      stiffness: 50,
+    },
   },
 };
 
@@ -50,17 +60,17 @@ export default function Services() {
   return (
     <section id="services" className="py-24 bg-slate-50">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        
         <div className="text-center max-w-2xl mx-auto mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
             Our Premium Services
           </h2>
           <p className="text-slate-600 text-lg">
-            Hindi lang basta laba. We give your clothes the professional care they deserve using modern equipment and premium detergents.
+            Hindi lang basta laba. We give your clothes the professional care
+            they deserve using modern equipment and premium detergents.
           </p>
         </div>
-        
-        <motion.div 
+
+        <motion.div
           variants={container}
           initial="hidden"
           whileInView="show"
@@ -74,7 +84,9 @@ export default function Services() {
               whileHover={{ y: -5 }}
               className="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 hover:shadow-xl hover:border-blue-100 transition-all duration-300 group"
             >
-              <div className={`w-14 h-14 rounded-xl ${service.color} flex items-center justify-center mb-6 group-hover:scale-110 transition-transform`}>
+              <div
+                className={`w-14 h-14 rounded-xl ${service.color} flex items-center justify-center mb-6 group-hover:scale-110 transition-transform`}
+              >
                 {service.icon}
               </div>
 
@@ -89,19 +101,21 @@ export default function Services() {
         </motion.div>
 
         <div className="mt-20 pt-10 border-t border-slate-200 grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
-            {[
-                { label: "Premium Detergents", icon: Sparkles },
-                { label: "Express Service", icon: Clock },
-                { label: "Hygiene Guaranteed", icon: ShieldCheck },
-                { label: "Lost & Found Safe", icon: Layers },
-            ].map((feat, i) => (
-                <div key={i} className="flex flex-col items-center gap-2 text-slate-600">
-                    <feat.icon className="w-6 h-6 text-blue-400" />
-                    <span className="font-medium text-sm">{feat.label}</span>
-                </div>
-            ))}
+          {[
+            { label: "Premium Detergents", icon: Sparkles },
+            { label: "Express Service", icon: Clock },
+            { label: "Hygiene Guaranteed", icon: ShieldCheck },
+            { label: "Lost & Found Safe", icon: Layers },
+          ].map((feat, i) => (
+            <div
+              key={i}
+              className="flex flex-col items-center gap-2 text-slate-600"
+            >
+              <feat.icon className="w-6 h-6 text-blue-400" />
+              <span className="font-medium text-sm">{feat.label}</span>
+            </div>
+          ))}
         </div>
-
       </div>
     </section>
   );
