@@ -34,15 +34,14 @@ export default function Navbar() {
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
-          
           <a href="#" className="relative flex items-center">
-            <Image 
-                src="/rolyo-logo.png" 
-                alt="Rolyo Laundry Services" 
-                width={250} 
-                height={100} 
-                className="h-14 md:h-16 w-auto object-contain transition-all duration-300"
-                priority    
+            <Image
+              src="/rolyo-logo.png"
+              alt="Rolyo Laundry Services"
+              width={250}
+              height={100}
+              className="h-14 md:h-16 w-auto object-contain transition-all duration-300"
+              priority
             />
           </a>
 
@@ -56,7 +55,7 @@ export default function Navbar() {
                 {link.name}
               </a>
             ))}
-            
+
             <button className="bg-primary hover:bg-blue-700 text-white px-5 py-2.5 rounded-full font-semibold text-sm transition-all shadow-lg hover:shadow-blue-500/30 flex items-center gap-2">
               <Phone size={16} />
               Book Pickup
