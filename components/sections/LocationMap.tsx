@@ -78,14 +78,22 @@ export default function LocationMap() {
             </div>
 
             <div className="flex gap-4 mt-12">
-              <button className="flex items-center gap-2 bg-[#1877F2] text-white px-6 py-3 rounded-xl font-semibold hover:bg-blue-700 transition shadow-lg hover:shadow-blue-500/25">
+              <a
+                href="https://www.facebook.com/rolyo.laudry/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 bg-[#1877F2] text-white px-6 py-3 rounded-xl font-semibold hover:bg-blue-700 transition shadow-lg hover:shadow-blue-500/25"
+              >
                 <Facebook size={20} />
                 Message Us
-              </button>
-              <button className="flex items-center gap-2 bg-slate-100 text-slate-700 border border-slate-200 px-6 py-3 rounded-xl font-semibold hover:bg-slate-200 transition">
+              </a>
+              <a
+                href="mailto:rolyo.laundry2025@gmail.com"
+                className="flex items-center gap-2 bg-slate-100 text-slate-700 border border-slate-200 px-6 py-3 rounded-xl font-semibold hover:bg-slate-200 transition"
+              >
                 <Mail size={20} />
                 Email
-              </button>
+              </a>
             </div>
           </motion.div>
 
