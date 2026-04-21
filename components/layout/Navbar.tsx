@@ -56,10 +56,14 @@ export default function Navbar() {
               </a>
             ))}
 
-            <button className="bg-primary hover:bg-blue-700 text-white px-5 py-2.5 rounded-full font-semibold text-sm transition-all shadow-lg hover:shadow-blue-500/30 flex items-center gap-2">
+            {/* 🟢 FIX: Desktop Book Pickup Button -> Changed to 'a' tag with 'tel:' */}
+            <a 
+              href="tel:09209274185" 
+              className="bg-primary hover:bg-blue-700 text-white px-5 py-2.5 rounded-full font-semibold text-sm transition-all shadow-lg hover:shadow-blue-500/30 flex items-center gap-2"
+            >
               <Phone size={16} />
               Book Pickup
-            </button>
+            </a>
           </div>
 
           <button
@@ -91,10 +95,15 @@ export default function Navbar() {
                 </a>
               ))}
               <hr className="border-slate-100 my-2" />
-              <button className="w-full bg-primary text-white py-3 rounded-xl font-semibold flex items-center justify-center gap-2">
+              
+              {/* 🟢 FIX: Mobile Book Pickup Button -> Changed to 'a' tag with 'tel:' */}
+              <a 
+                href="tel:09209274185" 
+                className="w-full bg-primary text-white py-3 rounded-xl font-semibold flex items-center justify-center gap-2"
+              >
                 <Phone size={18} />
                 Book Pickup Now
-              </button>
+              </a>
             </div>
           </motion.div>
         )}

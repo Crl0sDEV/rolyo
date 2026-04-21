@@ -5,6 +5,7 @@ import Services from "@/components/sections/Services";
 import LocationMap from "@/components/sections/LocationMap";
 import CTA from "@/components/sections/CTA";
 import Footer from "@/components/layout/Footer";
+import LabadaBot from "@/components/ui/LabadaBot";
 
 export default function Home() {
   return (
@@ -23,6 +24,8 @@ export default function Home() {
       <CTA/>
 
       <Footer />
+
+      <LabadaBot/>
 
     </main>
   );
